@@ -50,6 +50,7 @@ class Square2 {
 }
 
 var square6 = Square2(topLeftCorner: (10.0, 10.0), lengthOfSide: 10.0)
-print("Area is 100.0? \(square6.area)")
+
+print("Area is 100.00? \(square6.area)")
 square6.area = 144.0
 print("Length of side is 12.0? \(square6.lengthOfSide)")
